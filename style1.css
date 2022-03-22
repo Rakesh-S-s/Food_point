@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins",sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgb(253, 253, 253);
+   
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    color: #fff !important;
+}
+
+#navbarSupportedContent a{
+    color: #fff !important;
+    position: sticky;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent button{
+    background: rgb(57, 20, 220);
+    color: #fff;
+
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background:rgb(247, 244, 244);
+    background-image: url("img/bk.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home button{
+
+    background: rgb(255, 255, 255);
+    color: #fff;
+    border-radius: 15px;
+}
+#home h1{
+    font-size: 100px;
+    color: rgb(250, 249, 245);
+    letter-spacing: 3px;
+   
+    
+}
+#home p{
+    font-size: 18px;
+    color:whitesmoke;
+   
+    }
+
+#home .input-group{
+    width: 50%;
+    height: 40%;
+
+}
+
+
+/****products****/
+
+#product{
+    background :#fff;
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+}
+#product img{
+    border-radius: 2%;
+    width: 250px;
+    height: 235px;
+}
+.card{
+    width: 250px;
+    height: 370px;
+    background: #ffffff !important;
+    border: #ffffff !important;
+  
+
+    overflow: hidden;
+    justify-content: center;
+
+    align-items: center;
+    margin: 30px 30px;
+
+}
+#addtocart{
+    border: #4a47f1;
+    background: #4a47f1;
+    font-size: 10px;
+}
+#wishlist{
+    border: #4a47f1;
+    background: #4a47f1;
+    font-size: 10px;
+}
+#wishlist{
+    width: fit-content;
+    height: fit-content;
+}
+
+.box{
+    width: 80% !important;
+    margin-top: 50px;
+}
